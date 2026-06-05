@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: "US Urban Migration Patterns (2000-2020)"
+message: "If you use this work, please cite both this repository and the original Zimmer et al. paper."
+type: software
+authors:
+  - given-names: "Najiba"
+    affiliation: "Oregon State University"
+date-released: 2026-06-03
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/us-urban-migration"
+
+references:
+  - type: article
+    title: "Global Divergence in Urban Demographic Change and Migration Patterns"
+    authors:
+      - given-names: "Andrew"
+        family-names: "Zimmer"
+      - given-names: "Nick"
+        family-names: "Brooks"
+      - given-names: "Andrea E."
+        family-names: "Gaughan"
+      - given-names: "Cascade"
+        family-names: "Tuholske"
+    journal: "Nature Cities"
+    year: 2026
+    notes: "Original paper that introduced the GUDD dataset used in this analysis."
+
+  - type: data
+    title: "Global Urban Demographic Dataset (GUDD), version 1"
+    authors:
+      - given-names: "Andrew"
+        family-names: "Zimmer"
+      - given-names: "Nick"
+        family-names: "Brooks"
+      - given-names: "Andrea E."
+        family-names: "Gaughan"
+      - given-names: "Jonathan"
+        family-names: "Giezendanner"
+      - given-names: "Cascade"
+        family-names: "Tuholske"
+    year: 2026
+    publisher: "Harvard Dataverse"
+    notes: "Dataset reused in this project."

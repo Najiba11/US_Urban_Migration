@@ -1,0 +1,44 @@
+# === DATA FILES (do not commit large datasets) ===
+data/*
+!data/.gitkeep
+*.csv
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.zip
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === FIGURES (optional — uncomment if you don't want to track them) ===
+# figures/*.gif
+# figures/*.png
+
+# === SECRETS ===
+.env
+*.key
